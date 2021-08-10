@@ -90,6 +90,12 @@ main {
     #welcome-section {
         height: fit-content;
     }
+    .about-content-sub {
+        flex-direction: column;
+        margin-top: 10px;
+        
+    }
+
 }
 
 
@@ -342,6 +348,9 @@ section {
     font-size: clamp(1.1em,2vw,2.5em);
 }
 
+.about-content-sub {
+    display: flex;about-content-sub;
+}
 
 /*-- CONTACT SECTION --*/
 
@@ -526,4 +535,8 @@ h1 {
 .responsive-containment {
     width: clamp(262px,100%,2000px);
     margin: auto;
+}
+
+.simple-btn-link {
+    width: fit-content;
 }
