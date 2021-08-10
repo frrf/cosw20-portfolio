@@ -82,8 +82,8 @@ main {
     height: auto;
 }
 
-#home {
-    height: fit-content;
+#welcome-section {
+    height: 100vh;
 }
 
 section {
@@ -268,7 +268,7 @@ section {
 
 
 /*-- WORK SECTION --*/
-#work {
+#projects {
     height: 100%;
 }
 .work-holder {
