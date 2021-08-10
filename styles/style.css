@@ -93,7 +93,14 @@ main {
     .about-content-sub {
         flex-direction: column;
         margin-top: 10px;
-        
+    }
+    .about-content-skills {
+        flex-direction: column;
+        padding: 30px;
+    }    
+
+    .about-content-skills ul {
+        margin-bottom: 10px;
     }
 
 }
@@ -351,6 +358,22 @@ section {
 .about-content-sub {
     display: flex;about-content-sub;
 }
+
+.about-content-skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: var(--nav-font);
+}
+
+.about-content-skills h2{
+    color: var(--blizzard-blue);
+    margin-top: 10px;
+}
+.about-content-skills ul{
+    padding: 10px;
+}
+
 
 /*-- CONTACT SECTION --*/
 
